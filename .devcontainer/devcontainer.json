@@ -1,0 +1,21 @@
+{
+  "name": "FlowUp Temp. Virtual Machine",
+  "postCreateCommand": "echo 'Bienvenue dans ton terminal FlowUp!'",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "workbench.startupEditor": "none",
+        "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+        "workbench.iconTheme": "Monokai Pro Icons",
+        "locale": "fr"
+      },
+      "extensions": [
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "esbenp.prettier-vscode",
+        "ms-ceintl.vscode-language-pack-fr",
+        "monokai.theme-monokai-pro-vscode"
+      ]
+    }
+  }
+}
